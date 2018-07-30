@@ -1,31 +1,3 @@
-/*function par_impar(numero){
-  if(numero%2 == 0){
-    return "El número "+ numero + " es par";
-  } else {
-    return "El número "+ numero + " es impar";
-  }
-}
-
-var n = prompt("Ingrese un número");
-
-var result = par_impar(n);
-
-alert(result);
-
-function cadena(cadena){
-  if (cadena.toUpperCase() == cadena){
-    return "La cadena es de mayúsculas.";
-  } else if (cadena.toLowerCase() == cadena){
-    return "La cadena es de minúsculas.";
-  } else {
-    return "La cadena es de mayúsculas y minúsculas.";
-  }
-}
-
-var c = prompt("Ingrese texto:");
-var cd = cadena(c);
-alert(cd);*/
-
 function palindromo(cadena){
   var cad = cadena.toLowerCase().split(" ");
   cad= cad.join("");
